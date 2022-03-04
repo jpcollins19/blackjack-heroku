@@ -1,0 +1,10 @@
+.pre-login {
+  background-image: url("https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/a5/3a/53.jpg");
+  height: 85vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

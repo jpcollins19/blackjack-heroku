@@ -1,0 +1,480 @@
+.home-page {
+  /* background-image: url("https://thekatynews.com/wp-content/uploads/2020/10/Black-Jack-1024x576.png");
+  height: 60rem; */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*/////headers/////*/
+
+.login-text {
+}
+
+.hit-button {
+  height: 2rem;
+  width: 5rem;
+}
+
+/*/ ////play-game-page/////*/
+
+/* .play-game-page {
+  background-image: url("https://media.istockphoto.com/vectors/black-jack-table-vector-illustration-eps-10-casino-vector-id1147481668?b=1&k=20&m=1147481668&s=170667a&w=0&h=FU9HT2uXOHxqXf7_6yH287uaL54Yp0cBZJ12969cSPI=");
+  height: 34rem;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+} */
+
+.play-game-page > div {
+  display: flex;
+  justify-content: center;
+}
+
+.dealer-hand-row {
+  border: solid 5px red;
+  display: flex;
+}
+
+.dealer-cards-row {
+  border: solid 5px blue;
+  margin: 0;
+}
+
+.middle-row {
+  border: solid 5px green;
+  height: 2rem;
+}
+
+.your-cards-row {
+  border: solid 5px blue;
+}
+
+.your-hand-row {
+  border: solid 5px red;
+}
+
+.card-cont {
+  border: solid 3px orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.card-cont-marg-bottom {
+  border: solid 3px orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem 1rem 1rem 1rem;
+}
+
+.card-cont-marg-top {
+  border: solid 3px orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1rem 0rem 1rem;
+}
+
+.card-cont > div {
+  margin: 0rem 0.3rem 0rem 0.3rem;
+}
+
+.card-cont-marg-bottom > div {
+  margin: 0rem 0.3rem 0rem 0.3rem;
+}
+
+.card-cont-marg-top > div {
+  margin: 0rem 0.3rem 0rem 0.3rem;
+}
+
+/*/ ////buttons/////*/
+
+.play-game-button {
+  height: 5rem;
+  width: 20rem;
+  font-size: 40px;
+}
+
+.hit-button {
+  height: 2rem;
+  width: 5rem;
+}
+
+/*/ ////spades images/////*/
+
+.AS {
+  background-image: url("https://www.dcode.fr/tools/playing-cards/images/pique_a.png");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.twoS {
+  background-image: url("https://www.dcode.fr/tools/playing-cards/images/pique_2.png");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.threeS {
+  background-image: url("https://www.dcode.fr/tools/playing-cards/images/pique_3.png");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.fourS {
+  background-image: url("https://www.dcode.fr/tools/playing-cards/images/pique_4.png");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.fiveS {
+  background-image: url("https://www.dcode.fr/tools/playing-cards/images/pique_5.png");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.sixS {
+  background-image: url("https://www.dcode.fr/tools/playing-cards/images/pique_6.png");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.sevenS {
+  background-image: url("https://www.dcode.fr/tools/playing-cards/images/pique_7.png");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.eightS {
+  background-image: url("https://www.dcode.fr/tools/playing-cards/images/pique_8.png");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.nineS {
+  background-image: url("https://www.dcode.fr/tools/playing-cards/images/pique_9.png");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.tenS {
+  background-image: url("https://www.dcode.fr/tools/playing-cards/images/pique_10.png");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.JS {
+  background-image: url("https://www.dcode.fr/tools/playing-cards/images/pique_v.png");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.QS {
+  background-image: url("https://www.dcode.fr/tools/playing-cards/images/pique_d.png");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.KS {
+  background-image: url("https://www.dcode.fr/tools/playing-cards/images/pique_r.png");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+/*/ ////clubs images/////*/
+
+.AC {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.twoC {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.threeC {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.fourC {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.fiveC {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.sixC {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.sevenC {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.eightC {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.nineC {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.tenC {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.JC {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.QC {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.KC {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+/*/ ////hearts images/////*/
+
+.AH {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.twoH {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.threeH {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.fourH {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.fiveH {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.sixH {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.sevenH {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.eightH {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.nineH {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.tenH {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.JH {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.QH {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.KH {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+/*/ ////diam images/////*/
+
+.AD {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.twoD {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.threeD {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.fourD {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.fiveD {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.sixD {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.sevenD {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.eightD {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.nineD {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.tenD {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.JD {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.QD {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}
+
+.KD {
+  background-image: url("");
+  width: 4em;
+  height: 5em;
+  background-size: cover;
+}

@@ -1,0 +1,14 @@
+.middle-row {
+  display: flex;
+  /* border: solid 3px green; */
+  align-items: center;
+  justify-content: center;
+}
+
+.hit-stay-cont {
+  display: flex;
+  width: 30rem;
+  align-items: end;
+  justify-content: space-around;
+  margin-left: 50rem;
+}

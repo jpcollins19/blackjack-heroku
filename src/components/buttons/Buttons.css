@@ -1,0 +1,109 @@
+.play-game-button {
+  height: 5rem;
+  width: 20rem;
+  font-size: 40px;
+  display: flex;
+  padding: 0.8rem;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    to bottom,
+    rgb(172, 169, 169) 0%,
+    rgb(214, 211, 211) 25%,
+    rgb(238, 234, 234) 50%,
+    rgb(214, 211, 211) 75%,
+    rgb(172, 169, 169) 100%
+  );
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-bottom: 10rem;
+}
+
+.start-game-button {
+  height: 3rem;
+  width: 13rem;
+  font-size: 20px;
+  display: flex;
+  padding: 0.8rem;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    to bottom,
+    rgb(172, 169, 169) 0%,
+    rgb(214, 211, 211) 25%,
+    rgb(238, 234, 234) 50%,
+    rgb(214, 211, 211) 75%,
+    rgb(172, 169, 169) 100%
+  );
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 25rem;
+}
+
+.hit-button {
+  height: 2.5rem;
+  width: 7rem;
+  font-size: 20px;
+  display: flex;
+  padding: 0.8rem;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    to bottom,
+    rgb(172, 169, 169) 0%,
+    rgb(214, 211, 211) 25%,
+    rgb(238, 234, 234) 50%,
+    rgb(214, 211, 211) 75%,
+    rgb(172, 169, 169) 100%
+  );
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.stay-button {
+  height: 2.5rem;
+  width: 7rem;
+  font-size: 20px;
+  display: flex;
+  padding: 0.8rem;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    to bottom,
+    rgb(172, 169, 169) 0%,
+    rgb(214, 211, 211) 25%,
+    rgb(238, 234, 234) 50%,
+    rgb(214, 211, 211) 75%,
+    rgb(172, 169, 169) 100%
+  );
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.next-hand-button {
+  height: 2.5rem;
+  width: 10rem;
+  font-size: 20px;
+  display: flex;
+  padding: 0.8rem;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    to bottom,
+    rgb(172, 169, 169) 0%,
+    rgb(214, 211, 211) 25%,
+    rgb(238, 234, 234) 50%,
+    rgb(214, 211, 211) 75%,
+    rgb(172, 169, 169) 100%
+  );
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.testing {
+  background-color: rgb(87, 5, 238);
+}

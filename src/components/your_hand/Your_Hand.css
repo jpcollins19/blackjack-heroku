@@ -1,0 +1,40 @@
+.your-cards-row {
+  /* border: solid 5px blue; */
+  display: flex;
+  justify-content: center;
+  height: 9em;
+}
+
+.your-hand-row {
+  /* border: solid 5px red; */
+  display: flex;
+  justify-content: center;
+}
+
+.card-cont-your-hand {
+  /* border: solid 3px orange; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+.card-cont-marg-top {
+  /* border: solid 3px orange; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem 1rem 0rem 1rem;
+}
+
+.card-cont-your-hand > div {
+  min-height: 8rem;
+  width: 6rem;
+  margin: 0rem 0.3rem 0rem 0.3rem;
+}
+
+.card-cont-marg-top > div {
+  min-height: 8rem;
+  width: 6rem;
+  margin: 0rem 0.3rem 0rem 0.3rem;
+}

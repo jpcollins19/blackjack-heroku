@@ -1,0 +1,54 @@
+.dealer-hand-row {
+  /* border: solid 5px red; */
+  display: flex;
+  justify-content: center;
+  padding-left: 35rem;
+}
+
+.dealer-cards-row {
+  /* border: solid 5px blue; */
+  margin: 0;
+  justify-content: center;
+  display: flex;
+}
+
+.card-cont-dealer-hand {
+  /* border: solid 3px orange; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+  flex: 0.5;
+}
+
+.message-cont {
+  font-size: 3rem;
+  color: red;
+  text-shadow: 2px 1.5px black;
+  display: flex;
+  align-items: center;
+  /* border: solid 3px purple; */
+  width: 35rem;
+  display: flex;
+  align-items: start;
+}
+
+.card-cont-marg-bottom {
+  /* border: solid 3px orange; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem 1rem 0.5rem 1rem;
+}
+
+.card-cont-dealer-hand > div {
+  height: 8rem;
+  width: 6rem;
+  margin: 0rem 0.3rem 0rem 0.3rem;
+}
+
+.card-cont-marg-bottom > div {
+  height: 8rem;
+  width: 6rem;
+  margin: 0rem 0.3rem 0rem 0.3rem;
+}
